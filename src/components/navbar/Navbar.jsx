@@ -1,5 +1,5 @@
 import "./navbar.scss"
-import { ChatBubbleOutlineRounded, DarkMode, Fullscreen, Language, ListOutlined, Notifications, NotificationsNone, Search } from "@mui/icons-material"
+import { ChatBubbleOutlineRounded, DarkMode, FullscreenExit, Language, ListOutlined, NotificationsNone, Search } from "@mui/icons-material"
 
 const Navbar = () => {
   return (
@@ -18,7 +18,7 @@ const Navbar = () => {
             <DarkMode className="icon"/>
           </div>
           <div className="item">
-            <Fullscreen className="icon"/>
+            <FullscreenExit className="icon"/>
           </div>
           <div className="item">
             <NotificationsNone className="icon"/>
